@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="django-sorl-async-thumbnails",
-    version="0.1.0",
+    version="0.1.1",
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
@@ -15,7 +15,7 @@ setup(
     description="Asynchronous thumbnail generation for sorl-thumbnail using Celery",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/django-sorl-async-thumbnails",
+    url="https://github.com/alex-msk/sorl_async_thumbnails",
     classifiers=[
         "Development Status :: 4 - Beta",
         "Framework :: Django",
